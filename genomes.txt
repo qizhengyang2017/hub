@@ -1,0 +1,88 @@
+genome Anc0
+twoBitPath Anc0/Anc0.2bit
+trackDb Anc0/trackDb.txt
+groups groups.txt
+htmlPath Anc0/description.html
+description Anc0
+organism Anc0
+orderKey 4800
+scientificName Anc0
+defaultPos Anc0refChr0_14:1-1000
+
+genome DBVPG6044
+twoBitPath DBVPG6044/DBVPG6044.2bit
+trackDb DBVPG6044/trackDb.txt
+groups groups.txt
+htmlPath DBVPG6044/description.html
+description DBVPG6044
+organism DBVPG6044
+orderKey 4800
+scientificName DBVPG6044
+defaultPos chrIV:1-1000
+
+genome S288C
+twoBitPath S288C/S288C.2bit
+trackDb S288C/trackDb.txt
+groups groups.txt
+htmlPath S288C/description.html
+description S288C
+organism S288C
+orderKey 4800
+scientificName S288C
+defaultPos chrIV:1-1000
+
+genome SK1
+twoBitPath SK1/SK1.2bit
+trackDb SK1/trackDb.txt
+groups groups.txt
+htmlPath SK1/description.html
+description SK1
+organism SK1
+orderKey 4800
+scientificName SK1
+defaultPos chrIV:1-1000
+
+genome UWOPS034614
+twoBitPath UWOPS034614/UWOPS034614.2bit
+trackDb UWOPS034614/trackDb.txt
+groups groups.txt
+htmlPath UWOPS034614/description.html
+description UWOPS034614
+organism UWOPS034614
+orderKey 4800
+scientificName UWOPS034614
+defaultPos chrIV:1-1000
+
+genome Y12
+twoBitPath Y12/Y12.2bit
+trackDb Y12/trackDb.txt
+groups groups.txt
+htmlPath Y12/description.html
+description Y12
+organism Y12
+orderKey 4800
+scientificName Y12
+defaultPos chrIV:1-1000
+
+genome YPS128
+twoBitPath YPS128/YPS128.2bit
+trackDb YPS128/trackDb.txt
+groups groups.txt
+htmlPath YPS128/description.html
+description YPS128
+organism YPS128
+orderKey 4800
+scientificName YPS128
+defaultPos chrIV:1-1000
+
+genome _MINIGRAPH_
+twoBitPath _MINIGRAPH_/_MINIGRAPH_.2bit
+trackDb _MINIGRAPH_/trackDb.txt
+groups groups.txt
+htmlPath _MINIGRAPH_/description.html
+description _MINIGRAPH_
+organism _MINIGRAPH_
+orderKey 4800
+scientificName _MINIGRAPH_
+defaultPos s1142:1-1000
+

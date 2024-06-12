@@ -1,0 +1,107 @@
+track hubCentral
+compositeTrack on
+shortLabel yeast
+longLabel yeast pangenome
+group comphub
+subGroup1 view Track_Type Snake=Alignments  
+subGroup2 orgs Organisms Anc0=Anc0 _MINIGRAPH_=_MINIGRAPH_ Y12=Y12 YPS128=YPS128 UWOPS034614=UWOPS034614 DBVPG6044=DBVPG6044 SK1=SK1 S288C=S288C
+dragAndDrop subTracks
+#allButtonPair on
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 0
+centerLabelsDense on
+visibility full
+html ../documentation/hubCentral
+type bigBed 3
+
+	track hubCentralAlignments
+	shortLabel Alignments
+	view Alignments
+	visibility full
+	subTrack hubCentral
+
+		track snakeAnc0
+		longLabel Anc0
+		shortLabel Anc0
+		otherSpecies Anc0
+		visibility full
+		parent hubCentralAlignments
+		priority 2
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=Anc0
+
+		track snake_MINIGRAPH_
+		longLabel _MINIGRAPH_
+		shortLabel _MINIGRAPH_
+		otherSpecies _MINIGRAPH_
+		visibility full
+		parent hubCentralAlignments
+		priority 3
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=_MINIGRAPH_
+
+		track snakeY12
+		longLabel Y12
+		shortLabel Y12
+		otherSpecies Y12
+		visibility full
+		parent hubCentralAlignments
+		priority 4
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=Y12
+
+		track snakeYPS128
+		longLabel YPS128
+		shortLabel YPS128
+		otherSpecies YPS128
+		visibility hide
+		parent hubCentralAlignments off
+		priority 5
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=YPS128
+
+		track snakeDBVPG6044
+		longLabel DBVPG6044
+		shortLabel DBVPG6044
+		otherSpecies DBVPG6044
+		visibility hide
+		parent hubCentralAlignments off
+		priority 7
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=DBVPG6044
+
+		track snakeSK1
+		longLabel SK1
+		shortLabel SK1
+		otherSpecies SK1
+		visibility hide
+		parent hubCentralAlignments off
+		priority 8
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=SK1
+
+		track snakeS288C
+		longLabel S288C
+		shortLabel S288C
+		otherSpecies S288C
+		visibility hide
+		parent hubCentralAlignments off
+		priority 9
+		bigDataUrl ../yeast-pg.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=S288C
+

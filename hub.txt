@@ -1,0 +1,5 @@
+hub myHub
+shortLabel yeast
+longLabel yeast pangenome
+genomesFile genomes.txt
+email NoEmail
